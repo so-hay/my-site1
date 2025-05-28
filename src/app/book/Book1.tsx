@@ -10,14 +10,14 @@ export default function Book1() {
         {/* 画像部分 */}
         <Image 
           src="/ami.jpg" 
-          alt="夏をイメージしたグラデーションとアヒル" 
+          alt="アミ" 
           width={500}
           height={500}
           className="w-1/2 h-auto rounded-lg " 
         />
         {/* 説明文部分 */}
         <p className="text-lg text-right text-gray-600">
-          グラデーションとイラスト風のアヒルで夏をイメージしたデザイン
+          アミ　小さな宇宙人
         <br/>説明文部分
       </p>
 
