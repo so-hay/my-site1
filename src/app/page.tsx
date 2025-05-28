@@ -4,8 +4,6 @@ import Category from "./book/Category";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 
-// import Image from "next/image";
-
 // app/page.tsx
 export default function Home() {
   return (
