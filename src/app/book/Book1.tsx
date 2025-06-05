@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Book1() {
   return (
-    <div className="p-10 text-center bg-gray-400">
+    <div className="p-10 text-center bg-teal-700">
       <Header/>
       <div className="items-center mt-4 space-x-6">
         {/* 画像部分 */}

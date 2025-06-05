@@ -17,29 +17,36 @@ const carouselItems = [
   {
     id: 1,
     name: 'rainy',
-    href: '/hoshiwotugumono.jpg',
+    href: '/',
     imageSrc: '/hoshiwotugumono.jpg',
     imageAlt: 'グラデーション',
   },
   {
     id: 2,
     name: 'くまにてがみをかきました',
-    href: '/item/il_sakura',
+    href: '/',
     imageSrc: '/kumani.jpg',
     imageAlt: 'くまにてがみをかきました',
   },
   {
     id: 3,
     name: 'アミ',
-    href: '/item/march',
+    href: '/',
     imageSrc: '/ami.jpg',
+    imageAlt: '桜',
+  },
+    {
+    id: 4,
+    name: 'アミ',
+    href: '/',
+    imageSrc: '/aozora.jpg',
     imageAlt: '桜',
   },
 ];
 
 export default function Hero() {
   return (
-    <div className="bg-gray-500 p-10 text-center">
+    <div className="bg-teal-400 p-10 text-center">
       <h2 className="text-white text-2xl font-bold mb-6">
         おすすめ本</h2>
       <div className="image-container">
