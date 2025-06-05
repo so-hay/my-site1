@@ -1,5 +1,6 @@
 "use client";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 type MusicItem = {
   id: number;
@@ -104,7 +105,7 @@ export default function MusicPage() {
                 playingId === music.id ? 'animate-spin-slow' : ''
               }`}
             >
-              <img
+              <Image
                 src={music.image}
                 alt={music.title}
                 className="w-full h-full object-cover"
@@ -116,7 +117,7 @@ export default function MusicPage() {
             <div className="w-full h-2 bg-gray-200 rounded mt-2">
               <div
                 className="h-2 bg-blue-500 rounded transition-all duration-300"
-                style={{ width: `${progress[music.id] || 0}%` }}
+                style={{ width: `${progress[music.id] || 0}%` }} // ✅ インライン許容
               />
             </div>
 
