@@ -1,4 +1,12 @@
+<<<<<<< Updated upstream
 @tailwind base;
+=======
+<<<<<<< HEAD
+/* @tailwind base;
+=======
+@tailwind base;
+>>>>>>> d38b9b01b2c3b55c52cf0f63bc9924c2d4d3ceb6
+>>>>>>> Stashed changes
 @tailwind components;
 @tailwind utilities;
 
@@ -6,4 +14,18 @@
   .animate-spin-slow {
     animation: spin 5s linear infinite;
   }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+=======
+>>>>>>> d38b9b01b2c3b55c52cf0f63bc9924c2d4d3ceb6
+>>>>>>> Stashed changes
 }
