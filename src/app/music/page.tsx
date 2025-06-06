@@ -113,13 +113,13 @@ export default function MusicPage() {
             </div>
             <h2 className="mt-2 font-semibold">{music.title}</h2>
             <p className="text-sm text-gray-600">{music.artist}</p>
-
+{/* 
             <div className="w-full h-2 bg-gray-200 rounded mt-2">
               <div
                 className="h-2 bg-blue-500 rounded transition-all duration-300"
                 style={{ width: `${progress[music.id] || 0}%` }} // ✅ インライン許容
               />
-            </div>
+            </div> */}
 
             <audio
               ref={(el) => {
